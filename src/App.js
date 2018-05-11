@@ -7,36 +7,6 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state={}
-  //   const movies = [
-  //     {
-  //       id: 0,
-  //       title: 'Avengers',
-  //       poster_src: 'https://ia.media-imdb.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg',
-  //       overview : 'As thie fdjsaiofjeiowajfioaejwiojfiodjsjcioas'
-  //     },
-  //     {
-  //       id: 1,
-  //       title: 'Avengers2',
-  //       poster_src:'https://i.annihil.us/u/prod/marvel/i/mg/9/b0/55e0964dd4e2e/portrait_incredible.jpg',
-  //       overview : 'As thie fdjsaiofjeiowajfioaejwiojfiodjsjcioas'
-  //     },
-  // ]
-
-  //   this.state ={ 
-  //     rows: [
-  //       <p key='1'>this is my rows0</p>,
-  //       <p key='2'>this is my rows1</p>,
-  //       <p key='3'>this is my rows2</p>,
-  //       ]}
-  //   let movieRows = []
-  //   movies.forEach((movie) => {
-  //     console.log(movie.title)
-  //     const movieRow = <MovieRow movie={movie}/>
-  //     movieRows.push(movieRow)
-  //   })
-
-  //   this.state = {rows: movieRows }
-
     this.performSearch("black")
   }
   performSearch(searchTerm){
